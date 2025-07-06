@@ -1,0 +1,18 @@
+nest-ai/
+├── frontend/
+│   ├── index.html
+│   ├── study.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       ├── dashboard.js
+│       ├── pomodoro.js
+│       ├── flashcards.js
+│       ├── language.js
+│       └── chatbot.js
+├── backend/
+│   ├── app.py
+│   ├── ai_bot.py
+│   └── database.py
+├── requirements.txt
+└── README.md
