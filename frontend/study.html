@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nest AI | Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <aside class="sidebar">
+        <div class="logo">
+            <span class="neon">Nest</span> AI
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-mode="dashboard">Dashboard</a></li>
+                <li><a href="#" data-mode="pomodoro">Pomodoro</a></li>
+                <li><a href="#" data-mode="flashcards">Flashcards</a></li>
+                <li><a href="#" data-mode="language">Language Study</a></li>
+                <li><a href="#" data-mode="chat">AI Assistant</a></li>
+                <li><a href="#" data-mode="sessions">Past Sessions</a></li>
+            </ul>
+        </nav>
+        <button id="logoutBtn" class="logout-btn">Log Out</button>
+    </aside>
+
+    <main class="dashboard">
+        <div class="mode-content" id="modeContent">
+            <!-- Dynamic content loaded here -->
+        </div>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/pomodoro.js"></script>
+    <script src="js/flashcards.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
